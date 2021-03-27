@@ -69,8 +69,8 @@ class huffman
         
         huffman huff = new huffman();
 
-        char[] letters = { 'a', 'b', 'c', 'd', 'e', 'f' };
-        int[] freqs = { 5, 9, 12, 13, 16, 45 };
+        char[] letters = { 'a', 'b', 'c' };
+        int[] freqs = { 2,1,1 };
 
         huffNode root = huff.create(letters,freqs);
         huff.printCode(root,"");
